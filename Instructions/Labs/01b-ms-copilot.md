@@ -12,6 +12,8 @@ Imagina esto: estás a punto de empezar un servicio de limpieza de primera categ
 
 Prepárate para dar rienda suelta a tu creatividad y agudeza empresarial a medida que te adentras en este atractivo e interactivo laboratorio. Al final de este ejercicio, dispondrás de un completo conjunto de materiales que te encaminarán hacia el éxito empresarial. Empecemos y hagamos realidad tu empresa de limpieza para empresas.
 
+> **Importante**: este ejercicio proporciona indicaciones que puedes usar para trabajar con Copilot. Debes usarlas como *punto de partida* para tu exploración de Copilot. Se recomienda modificar estas indicaciones y agregar indicaciones propias para interactuar en un cuadro de diálogo iterativo con Copilot y mejorar los resultados que genera. Es posible que no termines exactamente con la salida que se describe en las instrucciones del ejercicio, pero no pasa nada: el objetivo es experimentar con Copilot.
+
 Este ejercicio debería tardar en completarse **40** minutos aproximadamente.
 
 > **Nota**: En este ejercicio, se supone que tiene una [cuenta de Microsoft personal](https://signup.live.com) (por ejemplo, una cuenta de outlook.com) con la que ha iniciado sesión en [Microsoft Edge](https://www.microsoft.com/edge/download) en el equipo. Si tienes una cuenta profesional y otra personal, asegúrate de seleccionar tu cuenta *personal* en la configuración de la cuenta, en la parte superior izquierda de Microsoft Edge.
@@ -29,6 +31,8 @@ Para iniciar la exploración de la IA generativa, vamos a usar Microsoft Copilo
 1. Use el icono de **Copilot** en la barra de herramientas de Edge para abrir el panel Copilot, como se muestra aquí:
 
     ![Captura de pantalla del panel Copilot en Microsoft Edge.](./Media/edge-copilot.png)
+
+    > **Sugerencia**: Microsoft Copilot se mejora continuamente. Es posible que tu interfaz de usuario no coincida exactamente con la imagen mostrada.
 
 1. En el cuadro de chat de la parte inferior del panel Copilot, escriba la siguiente indicación:
 
@@ -100,7 +104,6 @@ Ahora que ha realizado algunas investigaciones iniciales, vamos a que Copilot le
 
 Con la ayuda de Copilot, ha creado un borrador de un plan de negocio para la idea de un negocio de limpieza. Ahora vamos a usar Copilot para realizar algunos cálculos que ayudarán a refinar aún más el plan de negocio.
 
-1. En OneDrive, usa el botón **(+)** para agregar un nuevo **Libro de Excel**. Después cambia el nombre del libro por `Financial Projections`.
 1. En el panel Copilot, escriba la indicación siguiente:
 
     ```prompt
@@ -108,7 +111,9 @@ Con la ayuda de Copilot, ha creado un borrador de un plan de negocio para la ide
     ```
 
 1. Revisa la respuesta, que debe incluir una tabla de beneficios proyectados durante los próximos cinco años.
-1. Copia la tabla en el Portapapeles (teniendo cuidado de seleccionar solo la tabla). Después selecciona la celda A1 en el libro de Excel, y en la pestaña **Inicio**, en el menú **Portapapeles**, en **Pegar especial**, selecciona **Valores solo** para que los valores de la tabla se peguen en la hoja de cálculo de la siguiente manera:
+1. Si se muestra una opción para editar la tabla en Excel, selecciónala para crear un libro nuevo con la tabla de datos. De lo contrario, vuelve a la pestaña OneDrive y usa el botón **(+)** para agregar un nuevo **libro de Excel**. A continuación, copia la tabla de datos del panel Copilot en el libro.
+
+1. Cambia el nombre del libro por `Financial Projections`. Debe tener un aspecto similar a este:
 
     ![Captura de pantalla de un libro de Excel con datos generados por Copilot.](./Media/generated-financials.png)
 
@@ -204,28 +209,8 @@ Gracias a Copilot, has creado un plan de negocio para la empresa de limpieza y h
 Ha creado algunas garantías para ayudarle a empezar a trabajar con su negocio. Ahora es el momento de comunicarse con un inversor que busque financiar alguna startup.
 
 1. Usa el **Iniciador de aplicaciones** (&#8759;) en el extremo izquierdo de la barra de título de OneDrive para abrir **Outlook**.
-1. Cambia a la página **Calendario** y cambia la vista a **Semana laboral**. Si aún no tienes eventos programados en el calendario, puedes agregar un par para que Copilot tenga información con la que trabajar.
-1. En el panel Copilot, escriba la indicación siguiente:
 
-    ```prompt
-    What events do I have scheduled in this calendar?
-    ```
-    
-    Copilot debe poder leer el calendario en la página web e identificar eventos en el calendario:
-
-    ![Captura de pantalla de un calendario de Outlook con Copilot identificando eventos.](./Media/calendar-events.png)
-
-1. Prueba a usar este aviso para comprobar tu disponibilidad para una reunión con un administrador bancario en busca de financiación para la empresa:
-
-    ```prompt
-    What's my availability for a meeting this week?
-    ```
-
-    Copilot debe proporcionar un resumen de la disponibilidad en función de la información del calendario de la página web de Outlook.
-
-    > **Nota**: Microsoft Copilot puede leer la página del calendario que está abierta en el explorador (y puede "recordar" detalles durante la sesión actual), pero no puede acceder directamente a los datos del calendario. En un entorno corporativo, tu organización puede usar Microsoft 365 Copilot, que *tiene* acceso a tu calendario y correo electrónico de Outlook, así como a la información de otras aplicaciones empresariales como Microsoft Teams.
-
-1. Cambia a la página **Correo**, y crea un nuevo correo electrónico. Rellena el cuadro **Para** con tu propia dirección de correo electrónico y establece el **Asunto** en `Business funding meeting request`.
+1. En la página **Correo**, crea un nuevo correo electrónico. Rellena el cuadro **Para** con tu propia dirección de correo electrónico y establece el **Asunto** en `Business funding meeting request`.
 1. En el panel Copilot, escriba la indicación siguiente:
 
     ```prompt
