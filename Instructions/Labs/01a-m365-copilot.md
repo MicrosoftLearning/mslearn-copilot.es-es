@@ -144,12 +144,16 @@ Con la ayuda de Copilot, has creado un borrador de un plan de negocio para la id
     ```prompt
     Create a presentation about a corporate cleaning service named "Contoso Cleaning" in New York City. The presentation should include the benefits of using a professional cleaning business.
     ```
+1. Revisa el diseño de la presentación y, a continuación, selecciona **Generar diapositivas**.
 
+    ![Captura de pantalla de la presentación de PowerPoint creada por Copilot a partir de un documento de Word.](./Media/copilot-generate-slides.png)
 1. Copilot generará diapositivas en la presentación.  El proceso puede tardar varios minutos y la salida debe tener un aspecto similar al siguiente con un tema diferente:
 
-    ![Captura de pantalla de la presentación de PowerPoint creada por Copilot a partir de un documento de Word.](./Media/copilot-powerpoint-create-image.png)
+    ![Captura de pantalla de la presentación de PowerPoint creada por Copilot a partir de un documento de Word.](./Media/generate-slides-copilot.png)
 
-1. Selecciona la penúltima diapositiva de la presentación (antes de la diapositiva final *Conclusión* si Copilot ha generado una). Después, en el panel de Copilot, en el cuadro de chat, selecciona el icono **Ver indicaciones** y selecciona la solicitud **Agregar una diapositiva sobre...** para crear una nueva diapositiva mediante la indicación `Add a slide about the benefits of an eco-friendly approach to cleaning.`.
+1. Selecciona **Mantener**, establece tu **vista** como **normal** en la parte inferior derecha de tu presentación de PowerPoint ![Captura de pantalla de la creación de una diapositiva en una presentación de PowerPoint.](./Media/normal-presentation-view.png)
+
+1. Selecciona la penúltima diapositiva de la presentación (antes de la diapositiva final *Conclusión* si Copilot ha generado una). A continuación, en el panel de Copilot, en el cuadro de chat, pide que cree una diapositiva con el símbolo del sistema `Add a slide about the benefits of an eco-friendly approach to cleaning.`
 
     ![Captura de pantalla de la presentación de PowerPoint para crear una nueva diapositiva.](./Media/copilot-powerpoint-add-new-slide.png)
 
