@@ -50,7 +50,7 @@ Para iniciar la exploración de la IA generativa, vamos a usar Microsoft Copilo
 
     Esperamos que Copilot haya proporcionado algunas instrucciones útiles. Sin embargo, si tienes preguntas adicionales, puedes solicitar información más específica.
 
-1. Escriba lo siguiente:
+1. Escriba la siguiente indicación:
 
     ```prompt
     How do I go about setting up a business in New York?
@@ -78,7 +78,7 @@ Ahora que ha realizado algunas investigaciones iniciales, vamos a que Copilot le
     ```
 
 1. Revise la respuesta. Después, en el panel de Microsoft Word, en el menú **Archivo**, crea un nuevo documento en blanco. Cierra el panel **Diseñador** si se abre y cambia el nombre del nuevo documento de *Documento* a `Business Plan`.
-1. Copia el plan de negocio que se ha generado en el panel Copilot y pégalo en el documento del plan de negocio:
+1. Copia el plan de negocio que se ha generado en el panel Copilot, pégalo en el documento del plan de negocio y elimina cualquier contenido de Copilot innecesario:
 
     ![Captura de pantalla de un documento de Word con un plan de negocio generado por Copilot.](./Media/generated-content.png)
 
@@ -113,7 +113,7 @@ Con la ayuda de Copilot, ha creado un borrador de un plan de negocio para la ide
 1. Revisa la respuesta, que debe incluir una tabla de beneficios proyectados durante los próximos cinco años.
 1. Si se muestra una opción para editar la tabla en Excel, selecciónala para crear un libro nuevo con la tabla de datos. De lo contrario, vuelve a la pestaña OneDrive y usa el botón **(+)** para agregar un nuevo **libro de Excel**. A continuación, copia la tabla de datos del panel Copilot en el libro.
 
-1. Cambia el nombre del libro por `Financial Projections`. Debe tener un aspecto similar a este:
+1. Cambia el nombre del libro por `Financial projections`. Debe tener un aspecto similar a este:
 
     ![Captura de pantalla de un libro de Excel con datos generados por Copilot.](./Media/generated-financials.png)
 
@@ -147,6 +147,8 @@ Gracias a Copilot, has creado un plan de negocio para la empresa de limpieza y h
 
 1. En la diapositiva de título de la presentación, escriba el nombre de la empresa de limpieza como título y `Investor Opportunity` como subtítulo.
 1. Inserte una nueva diapositiva con el diseño de diapositiva **Dos contenidos** (que incluye un título y dos marcadores de posición para el contenido).
+    ![Captura de pantalla de una diapositiva de contenido nueva.](./Media/two-content-slide.png)
+
 1. Cambie el título de la diapositiva a `Benefits of Hiring a Commercial Cleaner`.
 1. En el panel Copilot, escriba la indicación siguiente:
 
